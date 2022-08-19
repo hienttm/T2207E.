@@ -1,0 +1,26 @@
+body{
+    background-color: bisque;
+    background-image: url("../images/a6-7328-1660632034.jpg");
+    background-size: cover;
+}
+h1{
+    color: #ff14c8;
+}
+p {
+    color: rgba(255, 20, 110, 50);
+    font-size: 16px;
+    font-weight:400 ;
+    font-family: sans-serif;
+    line-height: 1.25;
+    text-align: left;/*left right center justify*/
+    text-decoration:none ;/*none ; underline; line-through; overline*/
+    text-transform: capitalize;/*uppercase;lowercase; capitalize; none */
+    font-style: italic;
+    background-color: orange;
+    width: 500px;/*độ rộng của ô chứa chữ*/
+
+}
+
+p{
+    color:deeppink;/*nhận kết quả sau*/
+}
