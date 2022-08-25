@@ -1,0 +1,26 @@
+.bbt{
+    font-family: Roboto;
+}
+.contactform{
+    color:white;
+    background-color: #3fa979;
+    padding: 10px 30px ;
+    font-size:30px;
+
+}
+.box-bb{
+    padding-left:30px;
+    font-size:20px;
+    box-sizing: border-box;
+    margin-top:20px;
+
+    margin-bottom:25px;
+}
+span{
+    color:red;
+}
+.s1{
+    width: calc(50% - 60px);
+    color: darkgray;
+
+}
