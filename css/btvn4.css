@@ -1,11 +1,13 @@
 .bbt{
     font-family: Roboto;
+    width: 400%;
 }
 .contactform{
     color:white;
     background-color: #3fa979;
     padding: 10px 30px ;
     font-size:30px;
+    width: 400px;
 
 }
 .box-bb{
@@ -13,14 +15,23 @@
     font-size:20px;
     box-sizing: border-box;
     margin-top:20px;
-
     margin-bottom:25px;
+    width: 350px;
 }
 span{
     color:red;
 }
 .s1{
-    width: calc(50% - 60px);
+    margin: auto;
     color: darkgray;
 
+}
+.box-bbt{
+    margin:15px;
+}
+.box-bbt name{
+
+}
+.name{
+    display:flex;
 }

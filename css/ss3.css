@@ -1,0 +1,99 @@
+div{
+    width: calc(25% - 20px);
+            /* độ rộng của khổi, thường ngta k quản lí độ cao, để tự do, chỉ qly độ rộng
+        Hàm calc: đổi 25% đội rộng khối rồi trừ 20px diện tích bên ngoài nội dung của margin:10px - trái 10, phải 10 tổng 20
+        Chú ý: phải cách 2 bên dấu trừ
+        */
+
+    float: left; /*left hoặc right: dồn các phần tử sang bên trái hoặc phải; hoặc none: không dồn  */
+
+    border:1px solid #801300; /* kích thước đường viền - kiểu đường viền - màu sắc
+    viền xung quanh khối; solid: đường liền, dotted: đường nét đứt, dasher*/
+        /*
+        border-top:1px solid #008000
+        border-right:1px solid #008000
+        border-left:1px solid #008000
+        border-bottom:1px solid #008000
+
+        */
+
+    margin:10px ;  /*khoảng cách giữa các phần tử: ngtac1: khi có đủ 4 thông số thì Top luôn laf số đầu tiên và
+     quay theo chiều kim động hồ. ngtac 2: khi thiếu mất 1 số thì phần bị thiếu lấy theo phần đối diện của nó */
+        /*
+        margin-top:10px;
+        margin-right:10px;
+        margin-left:10px;
+        margin-bottom:10px;
+
+         */
+    padding:15px 20px 25px 10px;/*tạo khoảng cách từ border đến nội dung, làm phần tử đẹp hơn; cộng vào diện tích của khối*/
+        /*
+        padding-top:
+        padding-right:
+        padding-left
+        padding-bottom:
+         */
+
+    /*diện tích khối= khối + padding+ border*/
+
+    box-sizing: border-box; /*border box: kích thước của khối được tính từ border đi vào, */
+
+    border-radius: 5px; /*cắt góc*/
+
+    box-shadow: 0px 0px 5px deeppink;
+        /* bóng: lan sang phải - độ lan xuống dưới - độ đậm nhạt - màu sắc
+            nếu -10px -10px 10px red: 2 gtri đầu âm thì đổ sang trái và lên trên
+
+        */
+
+
+    transition:300ms all; /*làm cho sự dịch chuyển từ từ hơn: trong khoảng thời gian:...*/
+
+}
+div:hover{ /*hover: trạng thái khi người dùng đưa chuột vào*/
+    transform: tranlate(50px,600px); /*transform: */
+   /* transform: rotate(45deg);
+    transform: scale(1.5);*/
+    /*background-color: red*/
+
+
+}
+img{
+    max-width: 100%; /*độ rộng tối đa của phần tử*/
+}
+#box-s{
+    background-color: red; /* mỗi id chỉ dung cho 1 thẻ duy nhất, k trung tên id*/
+}
+.box-bt{
+    background-color: green; /*mỗi class có nhiều phần tử, mỗi phần tử có thể thuộc nhiều class*/
+}
+.bbt{
+    border-radius: 40px;
+}
+/*mức đôj ưu tiên: 1: ID, 2: CLASS, 3:TAG
+khi 2 selector
+ */
+body .box-bb #pg{ /*ưu tiên nhất*/
+    color: aqua;
+}
+.box-bb #pg{
+    color: black;
+}
+#pg{
+    color:white;
+}
+.box-bb p{  /*chỉ những thẻ p trong class: box-bb*/
+    color:red;
+}
+body .box-bb p{
+    color: blue;
+}
+div .box-bb .box-bt p{
+    color:red;
+}
+p{
+    color: #ff14c8;/* ưu tiên thấp thất; trừ khi dùng: color: red!important;
+}
+p{
+    color: #801300;
+}

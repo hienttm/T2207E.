@@ -1,0 +1,71 @@
+.top-page{
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+}
+.top-page-left{
+    float:left;
+
+}
+.top-page-right{
+    float:right;
+}
+li{
+    list-style: none; /*để không có dấu chấm phía trước icon*/
+}
+.top-page li{
+    float: left; /* để dồn các icon lên 1 hàng*/
+}
+.top-page-left li a{
+    color: #6b6767;
+    margin-right: 20px; /*tạo khoảng caách 3 icon*/
+}
+.top-page-left li a i{
+    margin-right: 10px;
+}
+.top-page-right li a{
+    color: #6b6767;
+    margin-right: 20px; /*tạo khoảng cách các icon*/
+}
+.top-page-right li i{
+    color: #b43113;
+    margin-right: 10px;
+}
+/* head*/
+.logo{
+    float: left;
+}
+.top-cart{
+    float:right;
+}
+.menu{
+    float:right;
+}
+.menu li{
+    float:left;
+}
+.menu li a{
+    float: left;
+    margin-right:30px;
+}
+.top-cart a{
+    margin-left:20px;
+}
+.menu li a{
+    float: left;
+    margin-right: 20px;
+    font-size: 16px;
+    color: #22222285;
+    line-height: 54px;
+}
+.top-cart a{
+    margin-left: 20px;
+    color: #22222285;
+    font-size: 16px;
+    line-height: 54px;
+}
+.logo a{
+    font-size: 40px;
+    color: #ffa500;
+    font-weight: 500;
+    text-shadow: -5px 3px 3px #ffa500;
+}

@@ -1,0 +1,19 @@
+#nd{
+    font-family: Arial;
+}
+#box-s{
+    background-color: #2aa57a;
+    color:white;
+    border: 10px solid #2aa57a;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left:20px;
+}
+form{
+    float: left;
+    margin-left:30px;
+    font-family: Arial;
+}
+span{
+    color:red;
+}

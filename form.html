@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Demo</title>
+    <link rel="stylesheet" href="css/form.css"/>
+</head>
+<body>
+  <form method="get" action="#">  <!-- phương thức get hoặc post; action: địa chỉ nhận, nếu chưa có để # không được để trống -->
+      <label>Full name</label>
+      <input type="text" name="fullname" placeholder="Fullname" required/> <!--type: kiểu nhập dữ liệu, name: nơi để
+      đưa dữ liệu cho máy chủ, phải có; required: bắt buộc nhập thì mới cho gửi thông tin đi -->
+      <br/>                 <!-- br: xuống dòng-->
+      <label>Email</label>
+      <input type="email" name="your-email" placeholder="Email..." required/>
+      <br/>
+      <label>Telephone</label>
+      <input type="tel" name="phone" placeholder="Phone Number" required/>
+      <br/>
+      <label>Password</label>
+      <input type="password" name="pwd" placeholder="Password..." required/>
+      <br/>
+      <label>Age</label>
+      <input type="number" min="1" max="100" name="age" placeholder="Age....."/>
+      <br/>
+      <label>Birthday</label>
+      <input type="date" name="birthday" placeholder="Birthday"/>
+      <br/>
+      <label>Time</label>
+      <input type="time" name="MyTime" placeholder="MyTime"/>
+      <br/>
+      <label>My color</label>
+      <input type="color" name="my color" placeholder="Color..."/>
+      <br/>
+      <label>Gender</label>
+      <label><input type="radio" name="gender" value="male"/>Nam </label> <!-- cùng Name thì chỉ chọn được 1 giá trị; khác name thì khác nhóm lựa chọn-->
+      <label><input type="radio" name="gender" value="female"/>Nữ </label><!-- thêm thẻ Label thì sẽ chọn được khi ấn vào chữ-->
+      <label><input type="radio" name="gender" value="other"/>Khác </label>
+      <br/>
+      <label><input type="checkbox" name="confirm" value="yes"/>Tôi đã đọc và đồng ý với điều khoản của công ty</label>
+      <br/>
+      <label>Tiều sử bản thân</label>
+      <textagea name="desxtription" rows="10" cols="50"></textagea> <!-- có thể quy định số hàng, độ dài-->
+      <br/>
+      <label>Tỉnh/Thành phố</label>
+      <select name="city">
+          <option value="hanoi">Hà Nội</option> <!-- phải có value -->
+          <option value="saigon">TP Hồ Chí Minh</option>
+          <option value="haiphong">Hải Phòng</option>
+          <option value="cantho">Cần Thơ</option>
+      </select>
+      <br/>
+      <!-- trường hợp chia nhóm: miền mắc, trung nam: dùng thẻ
+      <optgroup label="miền bắc">
+             <option value="haiphong">Hải Phòng</option>
+       </optgroup>
+       -->
+      <button type="button">Button</button>
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+      <!-- button: không có chức năng gì cả; reset: reset lại thông tin nhập; submit: gửi thông tin đi-->
+  </form>
+</body>
+</html>
