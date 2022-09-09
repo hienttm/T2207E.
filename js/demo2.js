@@ -24,7 +24,7 @@ var obj2={
     }//this là đối tượng obj2
 };
 var a=document.getElementById("abc");
-console.log(a.innerText);
+console.log(a.innerText); //ABC
 var x=0;
 function changeText(){
     // a.innerText="Xin chao cac bạn";
