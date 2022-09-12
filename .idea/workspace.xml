@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="93e2e217-b312-4a70-899c-800af209e3dd" name="Changes" comment="up code" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DjT6JE4bUz10CbbWZRVMN07Mnq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/FPT APTECH/T2207_HCJS/library/fontawesome&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\FPT APTECH\T2207_HCJS\library\fontawesome" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93e2e217-b312-4a70-899c-800af209e3dd" name="Changes" comment="" />
+      <created>1661211319046</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661211319046</updated>
+      <workItem from="1661211321868" duration="22000" />
+      <workItem from="1661166987788" duration="7579000" />
+      <workItem from="1661341224840" duration="8385000" />
+      <workItem from="1661442884869" duration="6303000" />
+      <workItem from="1661487382100" duration="1212000" />
+      <workItem from="1661504491736" duration="13115000" />
+      <workItem from="1661575648688" duration="2931000" />
+      <workItem from="1661750422059" duration="1803000" />
+      <workItem from="1661764747223" duration="792000" />
+      <workItem from="1661772059459" duration="358000" />
+      <workItem from="1662461346957" duration="8834000" />
+      <workItem from="1662521565741" duration="4148000" />
+      <workItem from="1662546404507" duration="16017000" />
+      <workItem from="1662700451353" duration="12618000" />
+      <workItem from="1662793375038" duration="5879000" />
+    </task>
+    <task id="LOCAL-00001" summary="btvn_ss4">
+      <created>1661449049858</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661449049858</updated>
+    </task>
+    <task id="LOCAL-00002" summary="up code">
+      <created>1662551356067</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662551356067</updated>
+    </task>
+    <task id="LOCAL-00003" summary="up code">
+      <created>1662701720854</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662701720854</updated>
+    </task>
+    <task id="LOCAL-00004" summary="up code">
+      <created>1662984007637</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662984007637</updated>
+    </task>
+    <task id="LOCAL-00005" summary="up code">
+      <created>1662984173068</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662984173068</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="btvn_ss4" />
+    <MESSAGE value="up code" />
+    <option name="LAST_COMMIT_MESSAGE" value="up code" />
+  </component>
+</project>
