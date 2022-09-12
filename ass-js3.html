@@ -3,16 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>ASS JS3</title>
+  <link rel="stylesheet" href="css/ass-js3-loading.css">
 </head>
 <body>
+<!--  chèn ảnh loading khi ấn vào, thêm thẻ div-->
+  <div class="bg-fade" id="bg-fade"></div>
   <h1>City: <span id="city">ABC</span></h1>
   <h2>Temp: <span id="temp">30</span><sup>o</sup>C</h2>
   <h2>Pressure: <span id="press">1005</span></h2>
-  <button type="button" onclick="update()">Hanoi</button>
-  <button type="button" onclick="update2()">Saigon</button>
-  <button type="button" onclick="update3()">London</button>
-  <button type="button" onclick="update4()">New york</button>
-  <button type="button" onclick="update5()">Tokyo</button>
+<!--  cach 1: dung 5 function-->
+<!--  <button type="button" onclick="update()">Hanoi</button>-->
+<!--  <button type="button" onclick="update2()">Saigon</button>-->
+<!--  <button type="button" onclick="update3()">London</button>-->
+<!--  <button type="button" onclick="update4()">New york</button>-->
+<!--  <button type="button" onclick="update5()">Tokyo</button>-->
+<!--  cach 2: dung tham so URL-->
+  <button type="button" onclick="update('hanoi')">Hanoi</button>
+  <button type="button" onclick="update('saigon')">Saigon</button>
+  <button type="button" onclick="update('london')">London</button>
+  <button type="button" onclick="update('new york')">New york</button>
+  <button type="button" onclick="update('tokyo')">Tokyo</button>
   <script type="text/javascript" src="js/ass-js3.js"></script>
 </body>
 </html>

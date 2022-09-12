@@ -1,0 +1,17 @@
+.forecase-page{
+    background-image: url("../images/weather_background_image-602941.jpg");
+    background-size:    cover;
+}
+.box-weather{
+    float:left;
+    width: calc(25% - 30px);
+    background-color: #368dd470; /* số 70 cuối: 70% điểm ảnh*/
+    margin: 15px;
+    padding: 15px;
+    border-radius: 6px;
+    color: #ffffff;
+}
+.box-weather img{
+    transform: translate(150px,-80px);
+/* transform: dich chuyển icon   */
+}

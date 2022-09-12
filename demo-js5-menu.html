@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+</head>
+<body>
+<!--Sử dụng mẫu HTML, lấy dữ liệu từ API https://foodgroup.herokuapp.com/api/menu dđể nạp vào giao diện thay thế danh sách menu cũ.-->
+    <ul id="menu">
+
+    </ul>
+<script type="text/javascript">
+    function loadingMenu(){
+        var xhttp = new XMLHttpRequest();
+        xhttp.onload=function (){
+            var data = JSON.parse(this.responseText);
+            var list=data.data; //list: mảng data trong Json: "data": [
+            for(var i=0;i<list.length;i++){
+                var name=list[i].name; //duyệt mảng: biến name= các giá trị của key name trong obj
+                var icon=list[i].icon;
+                // console.log(name);      //lấy đc giá trị biến name F12
+                var str=`<li><img width="50px" src="${icon}"/> ${name}</li>`; // chú ý dấu huyền
+                // var str="<li>"+name+"</li>"; // ='<li>${name}</li>' (${..} như %d trong C: in giá trị biến name vào
+                var ul=document.getElementById("menu"); // biến giả tác động đến id menu trong HTML
+                ul.innerHTML+=str;
+
+        }
+        xhttp.open("GET","https://foodgroup.herokuapp.com/api/menu",true);
+        xhttp.send();
+    }
+    loadingMenu(); // chạy hàm
+</script>
+</body>
+</html>
