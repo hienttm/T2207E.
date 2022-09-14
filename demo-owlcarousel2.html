@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo owlcarousel2</title>
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="library/owlcarousel2/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="library/owlcarousel2/dist/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="library/owlcarousel2/dist/assets/owl.theme.green.css">
+    <link rel="stylesheet" href="library/megamenu/css/style.css">
+</head>
+<body>
+    <nav class="section navigation">
+        <div class="container">
+            <div class="menu-container">
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="http://marioloncarek.com">About</a>
+                            <ul>
+                                <li><a href="#">School</a>
+                                    <ul>
+                                        <li><a href="#">Lidership</a></li>
+                                        <li><a href="#">History</a></li>
+                                        <li><a href="#">Locations</a></li>
+                                        <li><a href="#">Careers</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Study</a>
+                                    <ul>
+                                        <li><a href="#">Undergraduate</a></li>
+                                        <li><a href="#">Masters</a></li>
+                                        <li><a href="#">International</a></li>
+                                        <li><a href="#">Online</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Research</a>
+                                    <ul>
+                                        <li><a href="#">Undergraduate research</a></li>
+                                        <li><a href="#">Masters research</a></li>
+                                        <li><a href="#">Funding</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Something</a>
+                                    <ul>
+                                        <li><a href="#">Sub something</a></li>
+                                        <li><a href="#">Sub something</a></li>
+                                        <li><a href="#">Sub something</a></li>
+                                        <li><a href="#">Sub something</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">News</a>
+                            <ul>
+                                <li><a href="#">Today</a></li>
+                                <li><a href="#">Calendar</a></li>
+                                <li><a href="#">Sport</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="http://marioloncarek.com">Contact</a>
+                            <ul>
+                                <li><a href="#">School</a>
+                                    <ul>
+                                        <li><a href="#">Lidership</a></li>
+                                        <li><a href="#">History</a></li>
+                                        <li><a href="#">Locations</a></li>
+                                        <li><a href="#">Careers</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Study</a>
+                                    <ul>
+                                        <li><a href="#">Undergraduate</a></li>
+                                        <li><a href="#">Masters</a></li>
+                                        <li><a href="#">International</a></li>
+                                        <li><a href="#">Online</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Study</a>
+                                    <ul>
+                                        <li><a href="#">Undergraduate</a></li>
+                                        <li><a href="#">Masters</a></li>
+                                        <li><a href="#">International</a></li>
+                                        <li><a href="#">Online</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Empty sub</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+    </nav>
+    <div class="section">
+        <div class="container">
+            <div class="owl-carousel owl-theme">
+                <div class="item"><h4><img src="images/h1_btvn2.jpg" alt="hinh1"></h4></div>
+                <div class="item"><h4><img src="images/anh-3-4612-1660632034.jpg" alt="hinh2"></h4></div>
+                <div class="item"><h4>3</h4></div>
+                <div class="item"><h4>4</h4></div>
+                <div class="item"><h4>5</h4></div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="library/jquery/jquery3.6.1.js"></script>
+    <script type="text/javascript" src="library/owlcarousel2/dist/owl.carousel.js"></script>
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:5
+                }
+            }
+        })
+    </script>
+    <script type="text/javascript" src="library/megamenu/js/megamenu.js"></script>
+</body>
+</html>

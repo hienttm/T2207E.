@@ -1,0 +1,27 @@
+body{
+    background-color: #3aada9;
+}
+.top-page{
+    background-color: #702c91;
+    color:white;
+    margin-top: 45px;
+    height: 100px;
+    width: 600px;
+    text-align: center;
+    font-size: large;
+}
+form{
+    background-color: #fafafa;
+    width: 600px;
+
+
+}
+i{
+    background-color: #702c91;
+
+}
+.fa{
+    margin-top: 40px;
+    margin-right: 600px;
+    margin-left: 600px;
+}

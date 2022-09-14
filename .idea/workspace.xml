@@ -5,10 +5,206 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93e2e217-b312-4a70-899c-800af209e3dd" name="Changes" comment="up code">
-      <change afterPath="$PROJECT_DIR$/css/demo-bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-bootstrap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-nivoslider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/exam-hcjs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-owlcarousel2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-hcjs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/megamenu/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/megamenu/js/megamenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/Gruntfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/ROADMAP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/dist/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/dist/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/dist/assets/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/dist/assets/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/dist/assets/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/dist/assets/owl.theme.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/dist/assets/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/dist/assets/owl.theme.green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/dist/assets/owl.theme.green.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/dist/assets/owl.video.play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/dist/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/dist/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/assets/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/assets/css/docs.theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/assets/img/bird_blue_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/assets/img/download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/assets/img/feature-drag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/assets/img/feature-modern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/assets/img/feature-module.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/assets/img/feature-options.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/assets/img/feature-responsive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/assets/img/feature-zombie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/assets/img/owl-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/assets/img/twitter_25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/assets/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/assets/js/foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/assets/owlcarousel/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/assets/owlcarousel/assets/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/assets/owlcarousel/assets/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/assets/owlcarousel/assets/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/assets/owlcarousel/assets/owl.theme.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/assets/owlcarousel/assets/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/assets/owlcarousel/assets/owl.theme.green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/assets/owlcarousel/assets/owl.theme.green.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/assets/owlcarousel/assets/owl.video.play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/assets/owlcarousel/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/assets/owlcarousel/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/assets/vendors/foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/assets/vendors/highlight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/assets/vendors/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/assets/vendors/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/assets/vendors/jquery.mousewheel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/demos/animate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/demos/autoheight.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/demos/autoplay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/demos/autowidth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/demos/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/demos/center.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/demos/demos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/demos/events.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/demos/lazyLoad.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/demos/merge.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/demos/mousewheel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/demos/responsive.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/demos/rtl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/demos/stagepadding.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/demos/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/demos/urlhashnav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/demos/video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/docs/api-classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/docs/api-events.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/docs/api-options.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/docs/dev-buildin-plugins.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/docs/dev-external.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/docs/dev-plugin-api.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/docs/dev-styles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/docs/started-faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/docs/started-installation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/docs/started-welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/docs/support-changelog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/docs/support-contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/docs/support-contributing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/assets/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/assets/img/bird_blue_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/assets/img/download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/assets/img/feature-drag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/assets/img/feature-modern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/assets/img/feature-module.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/assets/img/feature-options.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/assets/img/feature-responsive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/assets/img/feature-zombie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/assets/img/owl-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/assets/img/twitter_25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/assets/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/assets/js/foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/assets/scss/_settings.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/assets/scss/custom.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/assets/scss/demos.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/assets/scss/docs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/assets/scss/docs.theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/assets/scss/highlight.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/assets/vendors/foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/assets/vendors/highlight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/assets/vendors/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/assets/vendors/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/assets/vendors/jquery.mousewheel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/data/classes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/data/events.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/data/features.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/data/options.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/helpers/modulo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/helpers/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/layouts/demos.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/layouts/docs.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/layouts/home.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/pages/demos/animate.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/pages/demos/autoheight.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/pages/demos/autoplay.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/pages/demos/autowidth.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/pages/demos/basic.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/pages/demos/center.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/pages/demos/demos.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/pages/demos/events.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/pages/demos/lazyLoad.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/pages/demos/merge.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/pages/demos/mousewheel.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/pages/demos/responsive.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/pages/demos/rtl.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/pages/demos/stagepadding.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/pages/demos/test.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/pages/demos/urlhashnav.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/pages/demos/video.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/pages/docs/api-classes.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/pages/docs/api-events.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/pages/docs/api-options.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/pages/docs/dev-buildin-plugins.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/pages/docs/dev-external.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/pages/docs/dev-plugin-api.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/pages/docs/dev-styles.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/pages/docs/started-faq.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/pages/docs/started-installation.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/pages/docs/started-welcome.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/pages/docs/support-changelog.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/pages/docs/support-contact.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/pages/docs/support-contributing.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/pages/index.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/partials/footer.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/partials/head.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/partials/header.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/partials/home-carousel.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/partials/home-features.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/partials/home-hero.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/partials/home-teaser-text.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/partials/javascripts.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/partials/releated-docs.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/partials/sidenav-docs.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/partials/title.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/docs_src/templates/partials/vendors.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/src/img/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/src/img/owl.video.play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/src/js/.jscsrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/src/js/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/src/js/owl.animate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/src/js/owl.autoheight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/src/js/owl.autoplay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/src/js/owl.autorefresh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/src/js/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/src/js/owl.hash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/src/js/owl.lazyload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/src/js/owl.navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/src/js/owl.support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/src/js/owl.support.modernizr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/src/js/owl.video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/src/scss/_animate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/src/scss/_autoheight.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/src/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/src/scss/_lazyload.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/src/scss/_theme.default.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/src/scss/_theme.green.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/src/scss/_theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/src/scss/_video.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/src/scss/owl.carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/src/scss/owl.theme.default.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/src/scss/owl.theme.green.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/test/unit/autoplay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/owlcarousel2/test/unit/core.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btvn3.html" beforeDir="false" afterPath="$PROJECT_DIR$/btvn3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/layout-ass-js4.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/btvn3-css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-nivoslider.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo-nivoslider.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +237,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/FPT APTECH/T2207_HCJS/library/fontawesome&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/FPT APTECH/T2207_HCJS/library/owlcarousel2&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -52,6 +248,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\FPT APTECH\T2207_HCJS\library\owlcarousel2" />
+      <recent name="D:\FPT APTECH\T2207_HCJS\library\nivoslider" />
       <recent name="D:\FPT APTECH\T2207_HCJS\library\fontawesome" />
     </key>
   </component>
@@ -78,7 +276,10 @@
       <workItem from="1662546404507" duration="16017000" />
       <workItem from="1662700451353" duration="12618000" />
       <workItem from="1662793375038" duration="12622000" />
-      <workItem from="1663065676717" duration="1355000" />
+      <workItem from="1663065676717" duration="3261000" />
+      <workItem from="1663072511471" duration="5586000" />
+      <workItem from="1663093554144" duration="3094000" />
+      <workItem from="1663156161138" duration="4400000" />
     </task>
     <task id="LOCAL-00001" summary="btvn_ss4">
       <created>1661449049858</created>
@@ -129,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662989474702</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="up code">
+      <created>1663070040119</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663070040119</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +356,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="btvn_ss4" />
+    <MESSAGE value="demo nivoslider" />
     <MESSAGE value="up code" />
     <option name="LAST_COMMIT_MESSAGE" value="up code" />
   </component>

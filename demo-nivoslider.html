@@ -3,13 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <title>Demo Novoslider</title>
-     <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="library/nivoslider/themes/default/default.css">
+    <link rel="stylesheet" href="library/nivoslider/nivo-slider.css">
+
 </head>
 <body>
   <section class="section banner">
     <div class="container">
-
+        <div id="slider" class="nivoSlider">
+            <img src="images/123.jpg" data-thumb="images/toystory.jpg" alt="" />
+            <img src="images/1660727780-71da27ca9c4a770055d3d23f6eccecbf-width700height393.jpg" data-thumb="images/up.jpg" alt="" title="This is an example of a caption" />
+            <img src="images/h1_btvn2.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
+            <img src="images/tranh-2-2469-1660632034.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />
+        </div>
     </div>
   </section>
+
+  <section class="section map" id="map" style="height: 300px">
+<!--      nội dung full trong thì k cần container-->
+
+  </section>
+  <script type="text/javascript" src="library/jquery/jquery3.6.1.js"></script>
+    <script type="text/javascript" src="library/nivoslider/jquery.nivo.slider.js">
+    </script>
+  <script type="text/javascript">
+      $('#slider').nivoSlider();
+  </script>
+  <script type="text/javascript">
+      let map;
+
+      function initMap() {
+          map = new google.maps.Map(document.getElementById("map"), {
+              center: { lat: 21.0288108, lng: 105.6780 },
+              zoom: 8,
+          });
+      }
+
+      window.initMap = initMap;
+  </script>
+  <script
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA66KwUrjxcFG5u0exynlJ45CrbrNe3hEc&callback=initMap&v=weekly"
+          defer
+  ></script>
 </body>
 </html>
