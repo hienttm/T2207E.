@@ -1,0 +1,34 @@
+Index: css/btvn3-css.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/css/btvn3-css.css b/css/btvn3-css.css
+new file mode 100644
+--- /dev/null	(date 1663096463503)
++++ b/css/btvn3-css.css	(date 1663096463503)
+@@ -0,0 +1,21 @@
++.top-page{
++    background-color: #0c4128;
++    width: 100%;
++
++}
++
++.top-page-left{
++    float: left;
++    width: 25%;
++    padding: 15px;
++}
++.top-page-right{
++    float: left;
++    width: 75%;
++    display: ;
++}
++ img {
++     width: 80%;
++    border-top-right-radius: 45%;
++    border-bottom-right-radius: 45%;
++}
+diff --git a/css/layout-ass-js4.css b/library/owlcarousel2/docs_src/helpers/modulo.js
+rename from css/layout-ass-js4.css
+rename to library/owlcarousel2/docs_src/helpers/modulo.js
